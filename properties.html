@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Properties | Vivaan Realty</title>
+  <meta name="description" content="Explore premium residential, commercial, rental and investment properties with Vivaan Realty in Mumbai." />
+
+  <link rel="icon" href="assets/images/favicon.png" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+
+  <div class="loader" id="loader">
+    <div class="loader-content">
+      <div class="gold-line"></div>
+      <h1>VIVAAN REALTY</h1>
+      <p>One Stop Solution</p>
+    </div>
+  </div>
+
+  <header class="main-header" id="mainHeader">
+    <div class="container nav-container">
+      <a href="index.html" class="logo"><span>Vivaan</span> Realty</a>
+
+      <nav class="navbar" id="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="properties.html" class="active">Properties</a>
+        <a href="amenities.html">Amenities</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <a href="tel:+919999999999" class="nav-call">
+        <i class="fa-solid fa-phone"></i>
+        Call Now
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open Menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="hero-overlay"></div>
+    <div class="container page-hero-content">
+      <span class="section-tag">Premium Properties</span>
+      <h1>Explore Curated Property Options</h1>
+      <p>
+        Find verified residential, commercial, rental and investment opportunities
+        with professional support from Vivaan Realty.
+      </p>
+    </div>
+  </section>
+
+  <section class="properties-section section-padding">
+    <div class="container">
+
+      <div class="section-title reveal">
+        <span class="section-tag">Property Listings</span>
+        <h2>Featured Properties</h2>
+        <p>
+          Select from premium property options designed for modern buyers,
+          investors and businesses.
+        </p>
+      </div>
+
+      <div class="property-filter reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="Residential">Residential</button>
+        <button class="filter-btn" data-filter="Commercial">Commercial</button>
+        <button class="filter-btn" data-filter="Investment">Investment</button>
+        <button class="filter-btn" data-filter="Rental">Rental</button>
+      </div>
+
+      <div class="property-list">
+
+        <div class="property-item reveal" data-category="Residential">
+          <div class="property-image">
+            <img src="assets/images/property1.webp" alt="Luxury residential apartment" />
+            <span class="property-badge">Residential</span>
+          </div>
+
+          <div class="property-content">
+            <h3>Luxury Apartment</h3>
+            <p class="property-location">
+              <i class="fa-solid fa-location-dot"></i>
+              Mumbai, Maharashtra
+            </p>
+
+            <div class="property-price">Price On Request</div>
+
+            <div class="property-features">
+              <div class="property-feature">
+                <i class="fa-solid fa-bed"></i>
+                <span>2-3 BHK</span>
+              </div>
+              <div class="property-feature">
+                <i class="fa-solid fa-car"></i>
+                <span>Parking</span>
+              </div>
+              <div class="property-feature">
+                <i class="fa-solid fa-building"></i>
+                <span>Apartment</span>
+              </div>
+            </div>
+
+            <div class="property-buttons">
+              <a href="contact.html" class="btn btn-primary">Enquire Now</a>
+              <a href="https://wa.me/919999999999?text=I%20am%20interested%20in%20Luxury%20Apartment" class="btn btn-outline" target="_blank">WhatsApp</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="property-item reveal" data-category="Commercial">
+          <div class="property-image">
+            <img src="assets/images/property2.webp" alt="Premium commercial office space" />
+            <span class="property-badge">Commercial</span>
+          </div>
+
+          <div class="property-content">
+            <h3>Premium Office Space</h3>
+            <p class="property-location">
+              <i class="fa-solid fa-location-dot"></i>
+              Mumbai, Maharashtra
+            </p>
+
+            <div class="property-price">Price On Request</div>
+
+            <div class="property-features">
+              <div class="property-feature">
+                <i class="fa-solid fa-briefcase"></i>
+                <span>Office</span>
+              </div>
+              <div class="property-feature">
+                <i class="fa-solid fa-elevator"></i>
+                <span>Lift</span>
+              </div>
+              <div class="property-feature">
+                <i class="fa-solid fa-shield-halved"></i>
+                <span>Security</span>
+              </div>
+            </div>
+
+            <div class="property-buttons">
+              <a href="contact.html" class="btn btn-primary">Enquire Now</a>
+              <a href="https://wa.me/919999999999?text=I%20am%20interested%20in%20Premium%20Office%20Space" class="btn btn-outline" target="_blank">WhatsApp</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="property-item reveal" data-category="Investment">
+          <div class="property-image">
+            <img src="assets/images/property3.webp" alt="Modern investment property" />
+            <span class="property-badge">Investment</span>
+          </div>
+
+          <div class="property-content">
+            <h3>Modern Investment Home</h3>
+            <p class="property-location">
+              <i class="fa-solid fa-location-dot"></i>
+              Mumbai, Maharashtra
+            </p>
+
+            <div class="property-price">Price On Request</div>
+
+            <div class="property-features">
+              <div class="property-feature">
+                <i class="fa-solid fa-chart-line"></i>
+                <span>Growth</span>
+              </div>
+              <div class="property-feature">
+                <i class="fa-solid fa-house"></i>
+                <span>Home</span>
+              </div>
+              <div class="property-feature">
+                <i class="fa-solid fa-file-signature"></i>
+                <span>Support</span>
+              </div>
+            </div>
+
+            <div class="property-buttons">
+              <a href="contact.html" class="btn btn-primary">Enquire Now</a>
+              <a href="https://wa.me/919999999999?text=I%20am%20interested%20in%20Modern%20Investment%20Home" class="btn btn-outline" target="_blank">WhatsApp</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="property-item reveal" data-category="Rental">
+          <div class="property-image">
+            <img src="assets/images/property1.webp" alt="Rental apartment in Mumbai" />
+            <span class="property-badge">Rental</span>
+          </div>
+
+          <div class="property-content">
+            <h3>Premium Rental Apartment</h3>
+            <p class="property-location">
+              <i class="fa-solid fa-location-dot"></i>
+              Mumbai, Maharashtra
+            </p>
+
+            <div class="property-price">Rent On Request</div>
+
+            <div class="property-features">
+              <div class="property-feature">
+                <i class="fa-solid fa-key"></i>
+                <span>Rental</span>
+              </div>
+              <div class="property-feature">
+                <i class="fa-solid fa-bed"></i>
+                <span>1-2 BHK</span>
+              </div>
+              <div class="property-feature">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Prime Area</span>
+              </div>
+            </div>
+
+            <div class="property-buttons">
+              <a href="contact.html" class="btn btn-primary">Enquire Now</a>
+              <a href="https://wa.me/919999999999?text=I%20am%20interested%20in%20Premium%20Rental%20Apartment" class="btn btn-outline" target="_blank">WhatsApp</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="container cta-box reveal">
+      <h2>Want A Property Matching Your Budget?</h2>
+      <p>Share your requirement and Vivaan Realty will help you shortlist suitable options.</p>
+      <a href="contact.html" class="btn btn-primary">Share Requirement</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Vivaan Realty</h3>
+        <p>One stop solution for premium real estate services in Mumbai.</p>
+      </div>
+
+      <div>
+        <h4>Quick Links</h4>
+        <a href="about.html">About</a>
+        <a href="properties.html">Properties</a>
+        <a href="amenities.html">Amenities</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div>
+        <h4>Contact</h4>
+        <p>Mumbai, Maharashtra</p>
+        <p>+91 99999 99999</p>
+        <p>info@vivaanrealty.com</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 Vivaan Realty. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/919999999999" class="whatsapp-float" target="_blank">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <a href="tel:+919999999999" class="call-float">
+    <i class="fa-solid fa-phone"></i>
+  </a>
+
+  <button class="back-to-top" id="backToTop">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="js/loader.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/properties.js"></script>
+
+</body>
+</html>
